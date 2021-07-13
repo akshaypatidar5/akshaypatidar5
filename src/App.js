@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import "./style.css"
+import Button from "./Button"
+import quotes1 from "./images/2.PNG"
+import quotes2 from "./images/3.PNG"
+import quotes3 from "./images/4.PNG"
+const Apple=()=>{
+    return(
+        <div className = "container">
+            <h1 className = "text">Hello Akshay</h1>
+            <Button buttonText="Left"/>
+            <Button buttonText="Center"/>
+            <Button buttonText="Right"/>
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+            <div className="image"> 
+            <img src={quotes1} alt = ""/>
+            <img src={quotes2} alt = ""/>
+            <img src={quotes3} alt = ""/>
+              </div>
+            
+        </div>
+        
+    )
 }
-
-export default App;
+export default  Apple

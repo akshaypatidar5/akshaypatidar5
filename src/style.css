@@ -1,0 +1,28 @@
+.button{
+    margin-left: 300px;
+}
+button:hover{
+    background-color: rgba(0, 255, 76, 0.664);
+}
+.text{
+    color: black;
+    text-align: center;
+}
+.container{
+    background-image: url(./images/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.image{
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.image img{
+    opacity: 0.4;
+    margin: 10px;
+}
+.image img:hover{
+    opacity: 1;
+}
